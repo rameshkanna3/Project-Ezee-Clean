@@ -1,0 +1,66 @@
+
+<head>
+    <style>
+
+    
+    .clock{
+
+        --clock-size: 360px; width: var(-clock-size); height: var(--clock-size); position: fixed; margin: auto; border-radius: 50%;
+        
+        inset: 0;
+        
+    
+    
+        
+        }
+        
+        .spike {
+        
+        position: absolute;
+        
+        width: 8px;
+        
+        height: 1px;
+        
+        background: #fff9;
+        
+        line-height: 20px;
+        
+        transform-origin: 50%;
+        
+        z-index: 5;
+        
+        inset:0; font-style: normal; transform: rotate(var(--rotate));
+        
+        margin: auto;
+        
+    
+        
+        }
+        
+        .spike:nth-child(5n+1) { box-shadow: -7px 0 #fff9;
+        
+        }
+</style>
+</head>
+
+
+<body>
+    
+
+<second class="clock">
+
+<div class="seconds">1</div>
+
+<div class="minutes">1</div>
+
+<div class="minute">1</div>
+
+<div class="hour">1</div>
+
+</second>
+</body>
+
+
+
+

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- iconify script -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top-bar">
+        <div class="top-content">
+          <p>
+            <span class="t-icon" style="margin-right: 10px"
+              ><iconify-icon
+                icon="formkit:whatsapp"
+                style="color: #e0623b"
+              ></iconify-icon></span
+            >+(123)-567-8912
+          </p>
+          <p>
+            <span class="t-icon" style="margin-right: 10px"
+              ><iconify-icon
+                icon="ph:clock-fill"
+                style="color: #e0623b"
+              ></iconify-icon
+            ></span>
+            Mon-Fri:9.00-19:00/closed on Weekends
+          </p>
+          <p>
+            <span class="t-icon" style="margin-right: 10px"
+              ><iconify-icon
+                icon="ic:baseline-email"
+                style="color: #e0623b"
+              ></iconify-icon
+            ></span>
+            <a href="mailto:ezeecleans@gmail.com">ezeecleans@gmail.com</a>
+          </p>
+        </div>
+        <!-- top icon -->
+        <div class="top-icon">
+          <p>
+            <iconify-icon
+              icon="bxl:facebook"
+              style="color: #001837"
+            ></iconify-icon>
+          </p>
+          <p>
+            <iconify-icon
+              icon="ri:twitter-fill"
+              style="color: #001837"
+            ></iconify-icon>
+          </p>
+          <p>
+            <iconify-icon
+              icon="fe:instagram"
+              style="color: #001837"
+            ></iconify-icon>
+          </p>
+        </div>
+      </div>
+
+      <!-- navbar -->
+      <div class="nav">
+        <nav class="dimension">
+          <a href="#home" id="logo"
+            ><img src="images/logo.png" alt="logo" class="logo"
+          /></a>
+          <ul id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+          </ul>
+          <button class="btn-book">Book Now</button>
+          <i class="fa-solid fa-bars" onclick="openmenu()"> </i>
+          <!-- <i class="fas fa-bars" id="ham-menu" onclick="openmenu()"></i> -->
+        </nav>
+      </div>
+
+      <!-- first section -->
+
+      <div class="first-section">
+        <div class="left-content">
+          <div class="content-left">
+            <h1>
+              Get <span>professional</span> cleaning with
+              <span>personal</span> touch
+            </h1>
+          </div>
+          <div class="content-para">
+            <p>
+              Comprehensive Cleaning Solutions: Elevate Your Space with Our
+              Expert Services"
+            </p>
+          </div>
+          <button>Book Now &#10140;</button>
+        </div>
+        <div class="right-content">
+          <img src="images/clean1.png" class="cleanimg" alt="" />
+        </div>
+      </div>
+
+      <!-- second section -->
+      <div class="second-section" id="about">
+        <div class="left-content-second">
+          <div class="horizontal-line" >
+            <p>
+              <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>About
+              company
+            </p>
+          </div>
+          <div class="content-title-second">
+            <h1>Housekeeping creates pleasant atmosphere</h1>
+          </div>
+          <div class="content-para-second">
+            At Ezee Cleans, we are dedicated to redefining the way you
+            experience cleanliness. Our mission is to provide top-notch cleaning
+            solutions that bring ease and convenience to your life. With a
+            commitment to excellence and a passion for impeccable spaces, we
+            have established ourselves as a trusted name in the industry.
+          </div>
+          <div class="link">
+            <p><a href="#">why choose Us ?</a></p>
+          </div>
+        </div>
+        <div class="right-content-second">
+          <img src="images/clean2.png" alt="" />
+        </div>
+      </div>
+
+      <!-- third section -->
+      <div class="third-section">
+        <div class="back-image">
+          <div class="content-third">
+            <div class="content-head-third">
+              <p>
+                <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>How it
+                works<span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>
+              </p>
+            </div>
+            <div class="content-para-third">
+              <p>Discover the Top Cleaning Service in the UK</p>
+            </div>
+            <div class="box-third">
+              <div class="first-box">
+                <div class="whiteback">
+                  <img src="images/Frame 21.png" alt="whatsapp-logo" />
+                </div>
+                <div class="sub-title">
+                  <p>Connect With Us</p>
+                </div>
+                <div class="sub-content">
+                  Initiate contact to share specifics about your cleaning needs
+                  and any special requests you may have.
+                </div>
+              </div>
+              <div class="second-box">
+                <div class="whiteback">
+                  <img src="images/Frame 22.png" alt="whatsapp-logo" />
+                </div>
+                <div class="sub-title">
+                  <p>Tailored Quote</p>
+                </div>
+                <div class="sub-content">
+                  We'll provide a personalized <br />
+                  cleaning quote detailing the scope and cost.
+                </div>
+              </div>
+              <div class="third-box">
+                <div class="whiteback">
+                  <img src="images/Frame 23.png" alt="whatsapp-logo" />
+                </div>
+                <div class="sub-title">
+                  <p>Scheduled Cleaning</p>
+                </div>
+                <div class="sub-content">
+                  Rule first third above first tree saw Grass subdue great eep
+                  saying forth rule hath to the replenish.
+                </div>
+              </div>
+              <div class="fourth-box">
+                <div class="whiteback">
+                  <img src="images/Frame 24.png" alt="whatsapp-logo" />
+                </div>
+                <div class="sub-title">
+                  <p>Sparkling Results</p>
+                </div>
+                <div class="sub-content">
+                  Rule first third above first tree saw Grass subdue great eep
+                  saying forth rule hath to the replenish.
+                </div>
+              </div>
+            </div>
+            <div class="text-third">
+              <p>
+                Home and Office Cleaning 7 days a week! Same Day Bookings. Book
+                Instantly
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fourth Section -->
+      <div class="fourth-section" id="services">
+        <div class="title-tag">
+          <div class="headline">
+            <p>
+              <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>Our
+              Services<span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>
+            </p>
+          </div>
+          <div class="title-tag-content">
+            Your Choice for the Best Cleaning Service in the UK
+          </div>
+        </div>
+        <div class="fourth-content-box">
+          <div class="box-1">
+            <img src="images/house.png" alt="house" />
+            <h2>&nbsp;&nbsp;Domestic Cleaning&nbsp;</h2>
+            <p>
+              Our highly trained and experienced cleaning professionals know the
+              ins and outs of effective commercial cleaning.
+            </p>
+          </div>
+          <div class="box-1">
+            <img src="images/building.png" alt="building" />
+            <h2 class="head-box">Commercial Cleaning</h2>
+            <p>
+              Our highly trained and experienced cleaning professionals know the
+              ins and outs of effective commercial cleaning.
+            </p>
+          </div>
+          <div class="box-1">
+            <img src="images/cleaining.png" alt="building" />
+            <h2>End of Tenacy Cleaning</h2>
+            <p>
+              Our highly trained and experienced cleaning professionals know the
+              ins and outs of effective commercial cleaning.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- fifth seection -->
+      <div class="background-image" id="pricing">
+        <div class="fifth-heading">
+          <p>
+            <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>Pricing
+            <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>
+          </p>
+          <div class="fifth-head">
+            <h1>Affordable Rates Quality Cleaning</h1>
+          </div>
+        </div>
+        <div class="fifth-body">
+          <div class="fifth-box-1">
+            <p class="first-line">Weekly Cleaning</p>
+            <h2>From £16.20 per hour</h2>
+            <p>
+              Our primary service, perfect for sustaining a clean and inviting
+              home. Clients in London frequently opt for a 3-hour weekly
+              cleaning session.
+            </p>
+          </div>
+          <div class="fifth-box-1">
+            <p class="first-line">Fortnightly Cleaning</p>
+            <h2>From £17.20 per hour</h2>
+            <p>
+              Our primary service, perfect for sustaining a clean and inviting
+              home. Clients in London frequently opt for a 3-hour weekly
+              cleaning session.
+            </p>
+          </div>
+
+          <div class="fifth-box-1">
+            <p class="first-line">One-off House Cleaning</p>
+            <h2>From £12.20 per hour</h2>
+            <p>
+              Our primary service, perfect for sustaining a clean and inviting
+              home. Clients in London frequently opt for a 3-hour weekly
+              cleaning session.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- sixth Section -->
+      <div class="sixth-section">
+        <div class="left-sixth-content">
+          <div class="sixth-head">
+            <span>&#9135;&#9135;&#9135;&#9135;&#9135;</span>Why choose us
+          </div>
+
+          <div class="sixth-heading">
+            Your trust, security, and satisfaction are our top priorities.
+          </div>
+          <div class="sixth-para">
+            Shall under In yielding saying given dominion don't of two god which
+            said. Creature dominion was the good creepeth to give bring doesn't
+            first shall two signs is a gathered set of people.
+          </div>
+          <div class="sixth-para-dark"><img src="images/Symbol.png" class="inside-image"alt="symbol">Toxin-free cleaning supplies</div>
+          <div class="six-para-dark-content">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </div>
+          <div class="sixth-para-dark"><img src="images/Symbol.png" class="inside-image"alt="symbol">Energy efficient equipment</div>
+          <div class="six-para-dark-content">
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam
+            corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+            consequatur.
+          </div>
+          <div class="sixth-para-dark"><img src="images/Symbol.png" class="inside-image"alt="symbol">Participant in recycling programs</div>
+          <div class="six-para-dark-content">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            fugit, sed quia consequuntur.
+          </div>
+        </div>
+        <div class="right-sixth-content">
+          <img src="images/clean9.png" alt="">
+        </div>
+      </div>
+      <!-- form section -->
+      <div class="form-section">
+        <div class="form-head">
+          <p>
+            <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>contact
+            <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>
+          </p>
+        </div>
+        <div class="form-heading">
+          <h2>Get in Touch with Us</h2>
+        </div>
+          <div class="form-control">
+              <div class="form-holder">
+            <form action="takeaction.php" method="post">
+      
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            
+                <label for="universityname">address</label>
+                <input type="email" id="mail" name="user_email">
+            
+                
+                
+                <label for="mail">Choose Service</label>
+                <input type="email" id="mail" name="user_email">
+                
+                <label for="contactnumber">Contact No:</label>
+                <input type="text" id="contactno" name="user_number">
+
+                <label for="cityname">Message</label>
+                <input type="textarea" id="mail" name="user_email">
+                <button type="submit" class="last-btn">Submit</button>
+                </form>
+                </div>
+           </div>
+      </div>
+
+      <!-- footer -->
+
+      <div class="footer">
+        <div class="logo-class">
+        <img src="images/logo.png" class="logo side" alt="logo">
+        <h2 class="name">Ezee Clean</h2>
+        </div>
+        <div class="content-footer">
+          <div class="text-f"><a href="#">Home</a></div>
+          <div class="text-f"><a href="#">About Us</a></div>
+          <div class="text-f"><a href="">Services</a></div>
+          <div class="text-f"><a href="">Pricing</a></div>
+        </div>
+        <div class="content-footer">
+          <div class="text">+(123)-567-8912</div>
+          
+          <div class="text-f"><a href="mailto:ezeecleans@gmail.com">ezeecleans@gmail.com</a></div>
+        </div>
+        <div class="content-footer-f">
+          <div class="text-f icon-f">
+            <iconify-icon
+              icon="bxl:facebook"
+              style="color:white"
+            ></iconify-icon>
+          </div>
+          <div class="text-f icon-f">
+            <iconify-icon
+              icon="ri:twitter-fill"
+              style="color:white"
+            ></iconify-icon>
+          </div>
+          <div class="text-f icon-f">
+            <iconify-icon
+              icon="fe:instagram"
+              style="color:white"
+            ></iconify-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
