@@ -8,6 +8,7 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <!-- style sheet link -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <script src="script.js" defer></script>
   </head>
 
@@ -21,7 +22,7 @@
                 icon="formkit:whatsapp"
                 style="color: #e0623b"
               ></iconify-icon></span
-            >+(123)-567-8912
+            ><a href="tel:+(123)-567-8912">+(123)-567-8912</a>
           </p>
           <p>
             <span class="t-icon" style="margin-right: 10px"
@@ -72,14 +73,32 @@
             ><img src="images/logo.png" alt="logo" class="logo"
           /></a>
           <ul id="sidemenu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
-            <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+            <li><a href="#home" onclick="closemenu()">Home</a></li>
+            <li><a href="#about" onclick="closemenu()">About Us</a></li>
+            <li><a href="#services" onclick="closemenu()">services</a></li>
+            <li><a href="#pricing" onclick="closemenu()">Pricing</a></li>
+            <iconify-icon
+              icon="material-symbols:close"
+              class="fas"
+              style="color: #001837"
+              onclick="closemenu()"
+            ></iconify-icon>
+            <a href="#contact-form"> <button  class="btn-book" id="contact1"onclick="closemenu()" >
+              Book Now
+            </button></a>
           </ul>
-          <button class="btn-book">Book Now</button>
+          <center>
+            <a href="#contact-form"> <button class="btn-book" id="contact2" onclick="closemenu()">
+              Book Now
+            </button></a>
+          </center>
+
+          <iconify-icon
+            icon="material-symbols:menu"
+            class="fas"
+            style="color: #001837"
+            onclick="openmenu()"
+          ></iconify-icon>
           <i class="fa-solid fa-bars" onclick="openmenu()"> </i>
           <!-- <i class="fas fa-bars" id="ham-menu" onclick="openmenu()"></i> -->
         </nav>
@@ -101,7 +120,7 @@
               Expert Services"
             </p>
           </div>
-          <button>Book Now &#10140;</button>
+          <a href="#contact-form"> <button id="contact">Book Now &#10140;</button></a>
         </div>
         <div class="right-content">
           <img src="images/clean1.png" class="cleanimg" alt="" />
@@ -111,10 +130,10 @@
       <!-- second section -->
       <div class="second-section" id="about">
         <div class="left-content-second">
-          <div class="horizontal-line" >
+          <div class="horizontal-line">
             <p>
               <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>About
-              company
+              company&nbsp; &#9135;&#9135;&#9135;&#9135;&#9135;
             </p>
           </div>
           <div class="content-title-second">
@@ -166,6 +185,7 @@
                 <div class="whiteback">
                   <img src="images/Frame 22.png" alt="whatsapp-logo" />
                 </div>
+
                 <div class="sub-title">
                   <p>Tailored Quote</p>
                 </div>
@@ -218,7 +238,7 @@
             </p>
           </div>
           <div class="title-tag-content">
-            Your Choice for the Best Cleaning Service in the UK
+            <p>Your Choice for the Best Cleaning Service in the UK</p>
           </div>
         </div>
         <div class="fourth-content-box">
@@ -256,10 +276,11 @@
             <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>Pricing
             <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>
           </p>
-          <div class="fifth-head">
-            <h1>Affordable Rates Quality Cleaning</h1>
-          </div>
         </div>
+        <div class="fifth-head">
+          <h1>Affordable Rates Quality Cleaning</h1>
+        </div>
+
         <div class="fifth-body">
           <div class="fifth-box-1">
             <p class="first-line">Weekly Cleaning</p>
@@ -296,7 +317,8 @@
       <div class="sixth-section">
         <div class="left-sixth-content">
           <div class="sixth-head">
-            <span>&#9135;&#9135;&#9135;&#9135;&#9135;</span>Why choose us
+            <span>&#9135;&#9135;&#9135;&#9135;&#9135;</span>&nbsp;Why choose
+            us&nbsp;&#9135;&#9135;&#9135;&#9135;&#9135;
           </div>
 
           <div class="sixth-heading">
@@ -307,27 +329,44 @@
             said. Creature dominion was the good creepeth to give bring doesn't
             first shall two signs is a gathered set of people.
           </div>
-          <div class="sixth-para-dark"><img src="images/Symbol.png" class="inside-image"alt="symbol">Toxin-free cleaning supplies</div>
+          <div class="sixth-para-dark">
+            <img
+              src="images/Symbol.png"
+              class="inside-image"
+              alt="symbol"
+            />Toxin-free cleaning supplies
+          </div>
           <div class="six-para-dark-content">
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           </div>
-          <div class="sixth-para-dark"><img src="images/Symbol.png" class="inside-image"alt="symbol">Energy efficient equipment</div>
-          <div class="six-para-dark-content">
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam
-            corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-            consequatur.
+          <div class="sixth-para-dark">
+            <img
+              src="images/Symbol.png"
+              class="inside-image"
+              alt="symbol"
+            />Energy efficient equipment
           </div>
-          <div class="sixth-para-dark"><img src="images/Symbol.png" class="inside-image"alt="symbol">Participant in recycling programs</div>
+          <div class="six-para-dark-content">
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+            suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+          </div>
+          <div class="sixth-para-dark">
+            <img
+              src="images/Symbol.png"
+              class="inside-image"
+              alt="symbol"
+            />Participant in recycling programs
+          </div>
           <div class="six-para-dark-content">
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
             fugit, sed quia consequuntur.
           </div>
         </div>
         <div class="right-sixth-content">
-          <center>
-          <img src="images/clean9.png" alt="">
-        </center>
+          <!-- <center> -->
+          <img src="images/clean9.png" alt="" />
+          <!-- </center> -->
         </div>
       </div>
       <!-- form section -->
@@ -338,70 +377,69 @@
             <span>&#9135;&#9135;&#9135;&#9135;&#9135; &nbsp;</span>
           </p>
         </div>
-        <div class="form-heading">
+        <div class="form-heading" id="contact-form">
           <h2>Get in Touch with Us</h2>
         </div>
-          <div class="form-control">
-              <div class="form-holder">
+        <div class="form-control">
+          <div class="form-holder">
             <form action="takeaction.php" method="post">
-      
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
-            
-                <label for="universityname">address</label>
-                <input type="email" id="mail" name="user_email">
-            
-                
-                
-                <label for="mail">Choose Service</label>
-                <input type="email" id="mail" name="user_email">
-                
-                <label for="contactnumber">Contact No:</label>
-                <input type="text" id="contactno" name="user_number">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
 
-                <label for="cityname">Message</label>
-                <input type="textarea" id="mail" name="user_email">
-                <button type="submit" class="last-btn">Submit</button>
-                </form>
-                </div>
-           </div>
+              <label for="universityname">address</label>
+              <input type="email" id="mail" name="user_email" />
+
+              <label for="mail">Choose Service</label>
+              <input type="email" id="mail" name="user_email" />
+
+              <label for="contactnumber">Contact No:</label>
+              <input type="text" id="contactno" name="user_number" />
+
+              <label for="cityname">Message</label>
+              <input type="textarea" id="mail" name="user_email" />
+              <button type="submit" class="last-btn">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
 
       <!-- footer -->
 
       <div class="footer">
         <div class="logo-class">
-        <img src="images/logo.png" class="logo side" alt="logo">
-        <h2 class="name">Ezee Clean</h2>
+          <img src="images/logo.png" class="logo-side" alt="logo" />
+          <h2 class="name">Ezee Clean</h2>
         </div>
         <div class="content-footer">
           <div class="text-f"><a href="#">Home</a></div>
-          <div class="text-f"><a href="#">About Us</a></div>
-          <div class="text-f"><a href="">Services</a></div>
-          <div class="text-f"><a href="">Pricing</a></div>
+          <div class="text-f"><a href="#about">About Us</a></div>
+          <div class="text-f"><a href="#services">Services</a></div>
+          <div class="text-f"><a href="#pricing">Pricing</a></div>
         </div>
         <div class="content-footer">
-          <div class="text">+(123)-567-8912</div>
-          
-          <div class="text-f"><a href="mailto:ezeecleans@gmail.com">ezeecleans@gmail.com</a></div>
+          <div class="text"><a href="tel:+(123)-567-8912">+(123)-567-8912</a></div>
+
+          <div class="text-f">
+            <a href="mailto:ezeecleans@gmail.com">ezeecleans@gmail.com</a>
+          </div>
         </div>
         <div class="content-footer-f">
           <div class="text-f icon-f">
             <iconify-icon
               icon="bxl:facebook"
-              style="color:white"
+              style="color: white"
             ></iconify-icon>
           </div>
           <div class="text-f icon-f">
             <iconify-icon
               icon="ri:twitter-fill"
-              style="color:white"
+              style="color: white"
             ></iconify-icon>
           </div>
           <div class="text-f icon-f">
             <iconify-icon
               icon="fe:instagram"
-              style="color:white"
+              style="color: white"
             ></iconify-icon>
           </div>
         </div>
