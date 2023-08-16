@@ -426,7 +426,6 @@ nav .fas {
   }
   #contact1 {
     display: block;
-    
   }
   #contact1 a{
     text-decoration: none;
@@ -447,10 +446,12 @@ nav .fas {
     /* justify-content: space-between; */
     flex-wrap: wrap;
     background-color: white;
+    position: sticky;
+    border: 2px solid var(--top-color);
   }
   nav .fas {
     display: block;
-    font-size: 25px;
+    font-size: 35px;
     margin-right: 20px;
     margin-left: auto;
   }
@@ -502,7 +503,7 @@ nav .fas {
   .content-left h1 {
     font-size: 30px;
     font-weight: 300;
-    margin-top: 5px;
+    margin-top: 15px;
     color: black;
   }
   .content-left span {
@@ -554,18 +555,19 @@ nav .fas {
   }
   .content-title-second {
     width: 100%;
-    font-size: 10px;
+    font-size: 15px;
+    line-height: 1.3;
     margin-top: 5px;
     /* background-color: aqua; */
-  }
-  .content-para-second {
-    width: 100%;
-    font-size: 12px;
-    font-weight: 200;
-    margin-top: 11px;
-    /* background-color: #e0623b; */
-    line-height: 1.5;
-  }
+}
+.content-para-second {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 11px;
+  /* background-color: #e0623b; */
+  line-height: 1.4;
+}
   .link {
     margin-top: 8px;
   }
@@ -583,8 +585,8 @@ nav .fas {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 700;
-    padding-top: 15px;
-  }
+    padding-top: 24px;
+}
   .left-content-second {
     width: 80%;
     height: 100%;
@@ -819,8 +821,8 @@ nav .fas {
     text-align: center;
     margin-left: 3.33%;
     margin-top: 2px;
-    font-size: 13px;
-  }
+    font-size: 14pxx;
+}
   .fifth-body {
     /* background-color: #e0623b; */
     width: 80%;
@@ -879,7 +881,7 @@ nav .fas {
   }
   .sixth-head {
     color: #001837;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     /* text-align: center; */
     text-transform: uppercase;
@@ -887,7 +889,7 @@ nav .fas {
 
   .sixth-heading {
     width: 100%;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 1.3;
     margin-top: 10px;
@@ -895,28 +897,29 @@ nav .fas {
   }
 
   .sixth-para {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 200;
     color: #565656;
     width: 100%;
     margin-top: 10px;
+    line-height: 1.2;
   }
 
   .inside-image {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     margin-right: 7px;
   }
   .sixth-para-dark {
     color: #001837;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 10px;
   }
   .six-para-dark-content {
     width: 100%;
     margin-top: 5px;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 200;
     color: #565656;
     margin-left: 18px;
@@ -996,16 +999,16 @@ nav .fas {
 
   button {
     margin-top: 13px;
-    width: 89px;
-    height: 35px;
+    width: 100px;
+    height: 41px;
     background-color: #e0623b;
     border-radius: 5px;
     border: none;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     margin-right: -38px;
     padding: 1px;
-  }
+}
 
   .footer {
     width: 100%;
