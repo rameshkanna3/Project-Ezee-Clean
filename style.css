@@ -383,7 +383,7 @@ button {
   margin-top: 10px;
 }
 .headline {
-  color: black;
+  color: #001837;
   text-align: center;
   font-size: 17px;
   font-weight: 700;
@@ -840,7 +840,7 @@ button {
     /* padding-bottom: 20px; */
   }
   .headline {
-    color: black;
+    color: #001837;
     text-align: center;
     font-size: 17px;
     font-weight: 700;
@@ -849,7 +849,7 @@ button {
   }
   .title-tag-content {
     width: 30%;
-    color: black;
+    color: #001837;
     font-size: 27px;
     font-weight: 700;
     justify-content: center;
