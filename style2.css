@@ -834,16 +834,16 @@ nav .fas {
     /* overflow: auto; */
   }
   .fifth-box-1 {
-    width: 100%;
+    width: 80%;
     height: 100%;
     /* background-color: aqua; */
-    margin-left: 0;
+    margin-left: 10%;
     border: 2px solid var(--top-color);
     border-radius: 10px;
     margin-top: 30px;
     color: black;
     background-color: white;
-  }
+}
   .fifth-box-1 .first-line {
     margin-left: 14px;
     margin-top: 4px;
