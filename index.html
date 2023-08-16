@@ -380,21 +380,24 @@
         </div>
         <div class="form-control">
           <div class="form-holder">
-            <form action="takeaction.php" method="post">
-              <label for="name">Name:</label>
+            <form action="" method="post">
+              <label for="name">Name</label>
               <input type="text" id="name" name="user_name" />
 
-              <label for="universityname">address</label>
-              <input type="email" id="mail" name="user_email" />
+              <label for="address">Address</label>
+              <input type="email" id="address" name="user_email" required />
 
-              <label for="mail">Choose Service</label>
-              <input type="email" id="mail" name="user_email" />
-
-              <label for="contactnumber">Contact No:</label>
+    
+              <label for="contactnumber">Contact No</label>
               <input type="text" id="contactno" name="user_number" />
-
+              <label for="form-service">Choose Service</label>
+              <select id="form-service" name="form-service">
+                <option value="Domestic Cleaning">Domestic Cleaning</option>
+                <option value="Commercial Cleaning">Commercial Cleaning</option>
+                <option value="End Of Tendency">End Of Tendency Cleaning</option>
+              </select>
               <label for="cityname">Message</label>
-              <input type="textarea" id="mail" name="user_email" />
+              <textarea type="textarea" id="mail" name="message" rows="5" cols="15"  ></textarea>
               <button type="submit" class="last-btn">Submit</button>
             </form>
           </div>

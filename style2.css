@@ -1,4 +1,7 @@
 @media only screen and (min-width: 700px) and (max-width: 900px) {
+  nav center a{
+    text-decoration: none;
+  }
   .top-content {
     gap: 10px;
     display: flex;
@@ -36,7 +39,7 @@
     border: none;
     color: white;
     font-size: 13px;
-    margin-right: -38px;
+    margin-right: 32px
   }
   /* //first section */
   .first-section {
@@ -382,7 +385,42 @@
     margin-top: 6px;
     text-align: center;
   }
-
+  .form-control form input {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    background-color: var(--top-color);
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+  .form-holder {
+    /* margin-left: 27%; */
+    width: 80%;
+    margin-left: 10%;
+  }
+  #form-service {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    border-radius: 5px;
+    background-color: var(--top-color);
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+  #mail {
+    width: 80%;
+    margin-left: 10%;
+    background-color: var(--top-color);
+    font-size: 15px;
+    border: none;
+    margin-top: 5px;
+  }
   .content-footer {
     display: flex;
     color: white;
@@ -421,6 +459,9 @@ nav .fas {
   display: none;
 }
 @media only screen and (min-width: 280px) and (max-width: 700px) {
+  nav  a{
+    text-decoration: none;
+  }
   .top-bar {
     display: none;
   }
@@ -946,19 +987,19 @@ nav .fas {
 
   .form-head {
     text-transform: uppercase;
-    margin-top: -27px;
-    font-size: 13px;
-    font-weight: 700;
-    padding-top: 55px;
-    text-align: center;
-  }
-  .form-heading {
+    margin-top: -15px;
     font-size: 15px;
-    font-weight: 500;
-    color: #001837;
-    margin-top: 7px;
+    font-weight: 700;
+    padding-top: 69px;
     text-align: center;
-  }
+}
+.form-heading {
+  font-size: 17px;
+  font-weight: 500;
+  color: #001837;
+  margin-top: 12px;
+  text-align: center;
+}
   .form-control {
     width: 100%;
     height: 100%;
@@ -971,32 +1012,34 @@ nav .fas {
   .form-control form {
     width: 100%;
     height: 100%;
-    margin-top: 3px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 39px;
-  }
-  .form-control form label {
-    color: #001837;
-    font-size: 12px;
-    font-weight: 500;
-    margin-left: 10%;
-    margin-top: 6px;
-    text-transform: capitalize;
-  }
+    margin-bottom: 40px;
+}
+.form-control form label {
+  color: #001837;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-top: 6px;
+  text-transform: capitalize;
+}
   .form-control form input {
-    width: 80%;
-    height: 30px;
-    margin-left: 10%;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
     background-color: var(--top-color);
     border-radius: 5px;
     border: none;
     padding-left: 10px;
     font-size: 13px;
-    font-weight: 200;
+    font-weight: 600;
     margin-top: 5px;
-  }
-
+}
+.last-btn {
+  margin-left: 5%;
+}
   button {
     margin-top: 13px;
     width: 100px;
@@ -1057,4 +1100,22 @@ nav .fas {
     margin-left: 10%;
     margin-top: 27px;
   }
+  #form-service{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color: var(--top-color);
+    border: none;
+  }
+  #mail{
+    width: 90%;
+    margin-left: 5%;
+    background-color: var(--top-color);
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+
+  }
+  
 }

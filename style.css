@@ -19,7 +19,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-
+nav center a{
+  text-decoration: none;
+}
 /* .container {
   background-color: white;
   height: 100vh;
@@ -90,7 +92,8 @@ text-decoration: none;
   border: none;
   color: white;
   font-size: 15px;
-  margin-right: -38px;
+  margin-right: 118px;
+
 }
 nav {
   display: flex;
@@ -615,7 +618,29 @@ button {
 }
 .form-holder {
   margin-left: 27%;
+  /* width: 80%;
+  margin-left: 10%; */
 }
+#form-service {
+  width: 50%;
+  height: 40px;
+  margin-left: 10%;
+  border-radius: 5px;
+  background-color: var(--top-color);
+  border: none;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+#mail {
+  width: 50%;
+  margin-left: 10%;
+  background-color: var(--top-color);
+  font-size: 15px;
+  border: none;
+  margin-top: 5px;
+}
+
 .last-btn {
   margin-left: 10%;
 }
@@ -691,9 +716,14 @@ button {
 .content-footer-f :hover{
   color: #e0623b;
     transform: translateY(-5px);
-  
+}
+select option{
+  width: 10px;
 }
 @media only screen and (min-width: 900px) and (max-width: 1350px) {
+  select option{
+    width: 10px;
+  }
   .top-bar {
     width: 100%;
     height: 54px;
@@ -998,7 +1028,62 @@ button {
     margin-top: 20px;
     margin-left: 40px;
   }
+  .form-control form label {
+    color: #001837;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15%;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+
+  .form-control form input {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    background-color: var(--top-color);
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  #form-service {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    border-radius: 5px;
+    background-color: var(--top-color);
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+    
+  }
+  #mail {
+    width: 70%;
+    margin-left: 15%;
+    background-color: var(--top-color);
+    font-size: 15px;
+    margin-top: 5px;
+}
+  .form-holder {
+    /* margin-left: 27%; */
+    width: 80%;
+    margin-left: 10%;
+  }
+  .last-btn {
+    margin-left: 15%;
+}
+.btn-book {
+margin-right: 60px;
+}
   @media only screen and (min-width: 900px) and (max-width: 1000px) {
+    nav center a{
+      text-decoration: none;
+    }
     .top-content {
       display: flex;
       gap: 20px;
@@ -1094,6 +1179,50 @@ button {
     }
     .right-sixth-content img {
       padding-top: 0;
+    }
+    .form-control form label {
+      color: #001837;
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 20%;
+      margin-top: 15px;
+      text-transform: capitalize;
+  }
+    .form-control form input {
+      width: 60%;
+      height: 40px;
+      margin-left: 20%;
+      background-color: var(--top-color);
+      border-radius: 5px;
+      border: none;
+      padding-left: 10px;
+      font-size: 15px;
+      font-weight: 200;
+      margin-top: 10px;
+    }
+    .form-holder {
+      /* margin-left: 27%; */
+      width: 80%;
+      margin-left: 10%;
+    }
+    #form-service {
+      width: 60%;
+      height: 40px;
+      margin-left: 20%;
+      border-radius: 5px;
+      background-color: var(--top-color);
+      border: none;
+      font-size: 15px;
+      font-weight: 300;
+      margin-top: 5px;
+    }
+    #mail {
+      width: 60%;
+      margin-left: 20%;
+      background-color: var(--top-color);
+      font-size: 15px;
+      border: none;
+      margin-top: 5px;
     }
   }
 }
